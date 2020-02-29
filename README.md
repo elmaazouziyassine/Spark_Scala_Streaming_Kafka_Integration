@@ -12,10 +12,10 @@ Kafka Installation on Windows (Standalone mode)
 
 
 ##### Start Zookeeper service
->kafka\bin\windows\**zookeeper-server-start.bat C:\BigDataLocalSetup\kafka_2.12-2.4.0\config\zookeeper.properties**
+>kafka\bin\windows\ **zookeeper-server-start.bat C:\BigDataLocalSetup\kafka_2.12-2.4.0\config\zookeeper.properties**
 
 ##### Start Kafka service (in another terminal)
->kafka\bin\windows\**kafka-server-start.bat C:\BigDataLocalSetup\kafka_2.12-2.4.0\config\server.properties**
+>kafka\bin\windows\ **kafka-server-start.bat C:\BigDataLocalSetup\kafka_2.12-2.4.0\config\server.properties**
 
 ##### Check active processes 
 >**jps**
